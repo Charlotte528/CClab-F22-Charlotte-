@@ -1,0 +1,45 @@
+body {
+  background-color: aquamarine;
+  font-family: Verdana, sans-serif;
+}
+
+body,
+h3,
+p {
+  margin: 0
+}
+
+.box {
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  /* border: 1px solid blueviolet; */
+  /*
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blueviolet;
+  */
+}
+
+#hidden-box {
+  /* display: block; */
+  visibility: hidden;
+}
+
+#special-box {
+  background-color: tomato;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.text-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-dsc {
+  font-size: 15px;
+}
