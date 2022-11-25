@@ -7,7 +7,7 @@ body {
 
 canvas {
   display: block;
-  align-self: center;
+  position: center;
 }
 
 h1 {
@@ -17,4 +17,5 @@ h1 {
 
 button {
   background-color: beige;
+  position: center;
 }
