@@ -26,6 +26,12 @@ p {
   top: 115px;
 }
 
+image {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(68, 68, 235);
+}
+
 button {
   background-color: lightcoral;
   display: block;
