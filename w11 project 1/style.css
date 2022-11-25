@@ -19,25 +19,25 @@ h1 {
 h2 {
   position: absolute;
   top: 300px;
-  left: 10px;
+  left: 100px;
 }
 
 p {
   position: absolute;
   top: 330px;
-  left: 10px;
+  left: 100px;
 }
 
 h3 {
   position: absolute;
   top: 380px;
-  left: 10px;
+  left: 100px;
 }
 
 image {
   position: absolute;
   top: 400px;
-  left: 80px;
+  left: 350px;
 }
 
 button {
