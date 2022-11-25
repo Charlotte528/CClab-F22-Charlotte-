@@ -8,7 +8,7 @@ body {
 canvas {
   display: block;
   margin: 0 auto;
-  border: 1px solid rgb(68, 68, 235);
+  border: 3px solid rgb(78, 145, 232);
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 580px;
+  top: 560px;
   left: 100px;
 }
 
@@ -36,16 +36,16 @@ h3 {
 
 img {
   position: absolute;
-  top: 640px;
-  left: 450px;
+  top: 700px;
+  left: 500px;
 }
 
 button {
   background-color: lightcoral;
   display: block;
   margin: 0 auto;
-  border: 1px solid rgb(68, 68, 235);
+  border: 1px solid rgb(78, 145, 232);
   position: absolute;
-  top: 700px;
-  left: 350px;
+  top: 1000px;
+  left: 500px;
 }
