@@ -19,17 +19,19 @@ h1 {
 h2 {
   position: absolute;
   top: 100px;
+  left: 10px;
 }
 
 p {
   position: absolute;
   top: 115px;
+  left: 10px;
 }
 
 image {
-  display: block;
-  margin: 0 auto;
-  border: 1px solid rgb(68, 68, 235);
+  position: absolute;
+  top: 100px;
+  left: 80px;
 }
 
 button {
