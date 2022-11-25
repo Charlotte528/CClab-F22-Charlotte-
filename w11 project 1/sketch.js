@@ -39,5 +39,5 @@ function draw() {
 }
 
 function buttonClicked() {
-  alert('Thank you for your loving!');
+  alert('Thank you for your love!');
 }
