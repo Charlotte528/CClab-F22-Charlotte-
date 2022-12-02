@@ -19,7 +19,7 @@ function draw() {
   background(200, 180, 150);
 
 
-  image(img, x, y, w, h);
+  image(img, 90, 60, 150, 180);
   // ImageBitmapRenderingContext(CENTER);
   // image(img, 90, 60, 150, 180);
   // image(img2, 570, 90, 150, 180);
