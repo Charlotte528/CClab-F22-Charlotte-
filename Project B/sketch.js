@@ -2,7 +2,7 @@ let img;
 //let img2, img3;
 
 function preload() {
-  img = loadImage("asset/下载.jpg");
+  img = loadImage("asset/picture1.png");
   //   img2 = loadImage("asset/picture2.jpg");
   //   img3 = loadImage("asset/picture3.png");
 }
