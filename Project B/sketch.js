@@ -1,7 +1,9 @@
 let img;
+let img2;
 
 function preload() {
   img = loadimage("asset/picture1.png");
+  img2 = loadimage("asset/picture2.jpg")
 }
 
 
@@ -17,7 +19,8 @@ function setup() {
 function draw() {
   background(200, 180, 150);
 
-  Image(90, 60, 150, 180)
+  Image(90, 60, 150, 180);
+  Image2(5700, 90, 150, 180);
 
   fill(180, 0, 0);
   beginShape();
