@@ -18,9 +18,9 @@ function setup() {
 function draw() {
   background(200, 180, 150);
 
-  Image(90, 60, 150, 180);
-  Image2(570, 90, 150, 180);
-  Image3(250, 250, 150, 200);
+  image(90, 60, 150, 180);
+  image2(570, 90, 150, 180);
+  image3(250, 250, 150, 200);
 
   fill(180, 0, 0);
   beginShape();
