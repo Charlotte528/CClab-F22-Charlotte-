@@ -1,9 +1,10 @@
 let img;
-let img2;
+let img2, img3;
 
 function preload() {
   img = loadimage("asset/picture1.png");
-  img2 = loadimage("asset/picture2.jpg")
+  img2 = loadimage("asset/picture2.jpg");
+  img3 = loadimage("asset/picture3.png");
 }
 
 
@@ -20,7 +21,8 @@ function draw() {
   background(200, 180, 150);
 
   Image(90, 60, 150, 180);
-  Image2(5700, 90, 150, 180);
+  Image2(570, 90, 150, 180);
+  Image3(250, 250, 150, 200);
 
   fill(180, 0, 0);
   beginShape();
