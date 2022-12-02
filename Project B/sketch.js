@@ -1,3 +1,13 @@
+let img;
+
+function preload() {
+  img = loadimage("asset/picture1.png");
+}
+
+
+
+
+
 function setup() {
   let canvas = createCanvas(800, 700);
   canvas.parent("canvasContainer");
@@ -6,6 +16,8 @@ function setup() {
 
 function draw() {
   background(200, 180, 150);
+
+  Image(90, 60, 150, 180)
 
   fill(180, 0, 0);
   beginShape();
