@@ -6,7 +6,7 @@ function setup() {
 }
 
 function preload() {
-  img = (loadImage("assets/下载.jpg"))
+  img = loadImage("assets/下载.jpg");
 }
 function draw() {
   //
