@@ -20,6 +20,7 @@ function draw() {
 
 
   // image(img, x, y, w, h);
+  ImageBitmapRenderingContext(CENTER);
   image(img, 90, 60, 150, 180);
   image(img2, 570, 90, 150, 180);
   image(img3, 250, 250, 150, 200);
