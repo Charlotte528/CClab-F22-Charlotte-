@@ -1,11 +1,11 @@
-let img;
-let img2, img3;
+//let img;
+//let img2, img3;
 
-function preload() {
-  img = loadImage("asset/picture1.png");
-  img2 = loadImage("asset/picture2.jpg");
-  img3 = loadImage("asset/picture3.png");
-}
+// function preload() {
+//   img = loadImage("asset/picture1.png");
+//   img2 = loadImage("asset/picture2.jpg");
+//   img3 = loadImage("asset/picture3.png");
+// }
 
 
 
@@ -20,10 +20,10 @@ function draw() {
 
 
   // image(img, x, y, w, h);
-  ImageBitmapRenderingContext(CENTER);
-  image(img, 90, 60, 150, 180);
-  image(img2, 570, 90, 150, 180);
-  image(img3, 250, 250, 150, 200);
+  // ImageBitmapRenderingContext(CENTER);
+  // image(img, 90, 60, 150, 180);
+  // image(img2, 570, 90, 150, 180);
+  // image(img3, 250, 250, 150, 200);
 
   fill(180, 0, 0);
   beginShape();
