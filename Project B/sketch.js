@@ -9,8 +9,6 @@ function preload() {
 
 
 
-
-
 function setup() {
   let canvas = createCanvas(800, 700);
   canvas.parent("canvasContainer");
