@@ -1,24 +1,24 @@
 let img;
 let song;
 function preload() {
-  img = loadImage("image1.png");
-  img2 = loadImage("image2.png");
-  img3 = loadImage("picture3.png");
-  img4 = loadImage("picture4.png");
-  img5 = loadImage("picture5.png");
-  img6 = loadImage("picure6.png");
-  img7 = loadImage("picture1full.jpg");
-  img8 = loadImage("picture8.png")
-  img9 = loadImage("picture9.png")
-  img10 = loadImage("picture10.jpg")
-  img11 = loadImage("picture2.jpg")
+  img = loadImage("asset/image1.png");
+  img2 = loadImage("asset/image2.png");
+  img3 = loadImage("asset/picture3.png");
+  img4 = loadImage("asset/picture4.png");
+  img5 = loadImage("asset/picture5.png");
+  img6 = loadImage("asset/picure6.png");
+  img7 = loadImage("asset/picture1full.jpg");
+  img8 = loadImage("asset/picture8.png")
+  img9 = loadImage("asset/picture9.png")
+  img10 = loadImage("asset/picture10.jpg")
+  img11 = loadImage("asset/picture2.jpg")
 
-  song = loadSound("music1.mp3");
-  song2 = loadSound("music2.wav")
-  song3 = loadSound("music3.wav")
-  song4 = loadSound("music4.wav")
-  song5 = loadSound("music5.wav")
-  song6 = loadSound("music7.mp3")
+  song = loadSound("asset/music1.mp3");
+  song2 = loadSound("asset/music2.wav")
+  song3 = loadSound("asset/music3.wav")
+  song4 = loadSound("asset/music4.wav")
+  song5 = loadSound("asset/music5.wav")
+  song6 = loadSound("asset/music7.mp3")
 }
 function setup() {
   createCanvas(800, 700);
