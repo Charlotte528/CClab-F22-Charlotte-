@@ -597,7 +597,11 @@ function draw() {
     }
   }
 
-
+  // if (frameCount < 250) {
+  //   if (song6.isPlaying() == false) {
+  //     song6.play();
+  //   }
+  // }
 
 
 }
