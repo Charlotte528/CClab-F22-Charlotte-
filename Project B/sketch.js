@@ -1,7 +1,6 @@
 let img;
 let song;
-function setup() {
-  createCanvas(800, 700);
+function preload() {
   img = loadImage("image1.png");
   img2 = loadImage("image2.png");
   img3 = loadImage("picture3.png");
@@ -20,6 +19,9 @@ function setup() {
   song4 = loadSound("music4.wav")
   song5 = loadSound("music5.wav")
   song6 = loadSound("music7.mp3")
+}
+function setup() {
+  createCanvas(800, 700);
 }
 
 function draw() {
