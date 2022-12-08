@@ -8,7 +8,7 @@ function preload() {
   img5 = loadImage("asset/picture5.png");
   img6 = loadImage("asset/picure6.png");
   img7 = loadImage("asset/picture1full.jpg");
-  img8 = loadImage("asset/picture8.png")
+  img8 = loadImage("asset/image3.png")
   img9 = loadImage("asset/picture9.png")
   img10 = loadImage("asset/picture10.jpg")
   img11 = loadImage("asset/picture2.jpg")
@@ -69,7 +69,7 @@ function draw() {
   } else if (frameCount > 1900) {
     fill(0)
     rect(370, 190, 85, 150)
-    image(img8, 398, 225, 55, 100)
+    image(img8, 350, 180, 160, 180)
 
 
 
