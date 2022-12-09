@@ -602,10 +602,23 @@ function draw() {
   //     song6.play();
   //   }
   // }
-
-
 }
 
+
+var canvas = document.queryselector('canvasContainer');
+
+function fullscreen() {
+  var el = document.getElementById('canvasContainer');
+
+  if (el.webkitRequestFullScreen) {
+    el.webkitRequestFullScreen();
+  }
+  else {
+    el.mozRequestFullScreen();
+  }
+}
+
+canvas.addEventListener("click", fullscreen)
 //function mousePressed() {
   //console.log(mouseX, mouseY);
 //}
