@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(220, 220, 215);
+}
+
+canvas {
+  display: block;
+}
+
+#canvasContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  background-color: #89bab7;
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 400px;
+  left: 70px;
+}
+
+.button2 {
+  background-color: #97d2b3;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 400px;
+  left: 1200px;
+}
+
+button {
+  background-color: rgb(242, 232, 212);
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(189, 135, 35);
+  position: absolute;
+  top: 750px;
+  left: 700px;
+}

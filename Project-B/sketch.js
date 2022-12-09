@@ -18,10 +18,11 @@ function preload() {
   song3 = loadSound("asset/music3.wav")
   song4 = loadSound("asset/music4.wav")
   song5 = loadSound("asset/music5.wav")
-  song6 = loadSound("asset/music7.mp3")
+  song6 = loadSound("asset/music7new.mp3")
 }
 function setup() {
-  createCanvas(800, 700);
+  let canvas = createCanvas(800, 700);
+  canvas.parent("canvasContainer");
 }
 
 function draw() {
@@ -52,7 +53,7 @@ function draw() {
   // text("她 TA", 389, 165);
   // pop();
 
-  fill(240, 240, 230);
+  fill(230, 230, 220);
   beginShape();
   vertex(250, 700);
   vertex(510, 700);
@@ -67,7 +68,7 @@ function draw() {
     fill(100, 100, 100);
     circle(440, 260, 10);
   } else if (frameCount > 1900) {
-    fill(0)
+    fill(255)
     rect(370, 190, 85, 150)
     image(img8, 350, 180, 160, 180)
 
@@ -241,52 +242,76 @@ function draw() {
   //dialogue box
   push()
   noStroke()
+  textSize(15)
   if (400 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(200, 140, 180, 50);
+    ellipse(250, 140, 190, 50);
     fill(0);
-    text("How are you guys today?", 135, 140);
-    textSize(13);
+    text("How are you guys today?", 160, 140);
+  }
+
+  if (400 < frameCount && frameCount < 600) {
+    image(img, 20, 103, 150, 260)
   }
 
   if (600 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(580, 140, 220, 50);
+    ellipse(570, 140, 240, 50);
     fill(0);
-    text("Today many people praised me~", 480, 140);
+    text("Today many people praised me~", 465, 140);
     //text("for my beauty~",450,165)
+  }
+
+  if (600 < frameCount && frameCount < 800) {
+    image(img2, 630, 95, 150, 280)
   }
 
   if (800 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(380, 200, 200, 59);
+    ellipse(390, 200, 210, 59);
     fill(0);
-    text("I really like the little boy who", 285, 200);
+    text("I really like the little boy who", 295, 200);
     text("watched me for 20 minutes!", 300, 215);
+  }
+
+  if (800 < frameCount && frameCount < 1000) {
+    image(img3, 110, 150, 220, 150)
   }
 
   if (1000 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(450, 270, 200, 50);
+    ellipse(440, 270, 200, 50);
     fill(0);
-    text("I felt no one really love me.", 380, 270);
+    text("I felt no one really love me.", 350, 270);
+  }
+
+  if (1000 < frameCount && frameCount < 1200) {
+    image(img4, 465, 105, 190, 230)
   }
 
   if (1200 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(310, 360, 200, 60);
+    ellipse(270, 360, 200, 60);
     fill(0);
-    text("Don't say that. You are the", 220, 355);
-    text("treasure of the history!", 220, 370);
-    text("We all love you~", 250, 385);
+    text("Don't say that. You are the", 180, 355);
+    text("treasure of the history!", 180, 370);
+    text("We all love you~", 210, 385);
+  }
+
+  if (1200 < frameCount && frameCount < 1400) {
+    image(img5, 60, 260, 140, 220)
   }
 
   if (1400 < frameCount && frameCount < 1900) {
     fill(0, 160, 200, 60);
-    ellipse(490, 440, 200, 60);
+    ellipse(490, 440, 220, 60);
     fill(0);
     text("I can't wait to see the visitors", 395, 440);
-    text("tomorrow! They are so cute!", 403, 455);
+    text("tomorrow! They are so cute!", 398, 455);
+  }
+
+  if (1400 < frameCount && frameCount < 1600) {
+    image(img6, 590, 310, 185, 175)
   }
   pop()
 
@@ -597,28 +622,14 @@ function draw() {
     }
   }
 
-  // if (frameCount < 250) {
+  // if (0 < frameCount && frameCount < 250) {
   //   if (song6.isPlaying() == false) {
-  //     song6.play();
+  //     //song6.play();
+  //     song6.loop()
   //   }
   // }
 }
 
-
-var canvas = document.queryselector('canvasContainer');
-
-function fullscreen() {
-  var el = document.getElementById('canvasContainer');
-
-  if (el.webkitRequestFullScreen) {
-    el.webkitRequestFullScreen();
-  }
-  else {
-    el.mozRequestFullScreen();
-  }
+function buttonClicked() {
+  alert('Thank you for your love!');
 }
-
-canvas.addEventListener("click", fullscreen)
-//function mousePressed() {
-  //console.log(mouseX, mouseY);
-//}

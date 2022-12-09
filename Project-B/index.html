@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCLab Project</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="#" />
+
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+
+  <!-- <audio controls height="100" width="100">
+    <source src="asset/music7new.mp3" type="audio/mpeg">
+    <embed height="50" width="100" src="asset/music7new.mp3">
+  </audio> -->
+  <button onclick="buttonClicked()" style="color :rgb(214, 169, 44)">Likes</button>
+  <audio id="sound1" src="asset/music7new.mp3" preload="auto"></audio>
+  <button class='button' onclick="document.getElementById('sound1').play();">Play
+    it</button>
+  <button class='button2' onclick="document.getElementById('sound1').pause();">Stop
+    it</button>
+
+  <!-- the following div will contain the p5 canvas. -->
+  <div id="canvasContainer">
+    <!-- p5 canvas -->
+  </div>
+  <!--img src="asset/picture1.png" height="300" width="200">
+
+
+    <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
